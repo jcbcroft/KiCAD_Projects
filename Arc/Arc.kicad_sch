@@ -3781,7 +3781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "2.7k"
 			(at 124.9337 99.2252 0)
 			(effects
 				(font
@@ -3790,7 +3790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 123.8894 98.2093 90)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 122.8734 97.9553 0)
 			(effects
 				(font
@@ -3809,6 +3809,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 122.8734 97.9553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 122.8734 97.9553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT2K70"
 			(at 122.8734 97.9553 0)
 			(effects
 				(font
@@ -4032,7 +4050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Arc:SW_TL3330AF260QG"
 			(at 97.5408 56.9239 0)
 			(effects
 				(font
@@ -4085,22 +4103,22 @@
 		(dnp no)
 		(uuid "18e21c1e-46f0-4f50-9a8f-c5ee2b1b02cc")
 		(property "Reference" "C10"
-			(at 92.773 83.7384 0)
+			(at 94.6259 80.8995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 95.0187 81.3644 0)
+		(property "Value" "10nF"
+			(at 95.2705 86.3144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.9353 79.7359 0)
 			(effects
 				(font
@@ -4109,7 +4127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 97.9701 83.5459 0)
 			(effects
 				(font
@@ -4119,6 +4137,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.9701 83.5459 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 97.9701 83.5459 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0805C103K5RACTU"
 			(at 97.9701 83.5459 0)
 			(effects
 				(font
@@ -4363,7 +4399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Arc:Spark Gap"
 			(at 252.8946 75.9577 0)
 			(effects
 				(font
@@ -4582,7 +4618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Arc:53100C"
 			(at 153.8726 70.4799 0)
 			(effects
 				(font
@@ -4766,22 +4802,22 @@
 		(dnp no)
 		(uuid "5927a01e-edf2-41d7-815d-399f85b93a4e")
 		(property "Reference" "C9"
-			(at 126.2165 122.067 0)
+			(at 121.3316 117.2295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 127.0185 118.752 0)
+		(property "Value" "1nF"
+			(at 121.4385 122.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.6687 115.6371 0)
 			(effects
 				(font
@@ -4790,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-KGM.pdf"
 			(at 123.7035 119.4471 0)
 			(effects
 				(font
@@ -4800,6 +4836,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.7035 119.4471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 123.7035 119.4471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM21BCG1H102FT"
 			(at 123.7035 119.4471 0)
 			(effects
 				(font
@@ -5369,7 +5423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Arc:GCT_USB4135-GF-A_REVA"
 			(at 44.966 70.4175 0)
 			(effects
 				(font
@@ -6092,7 +6146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 133.5825 81.5756 0)
 			(effects
 				(font
@@ -6101,7 +6155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.5382 80.5597 90)
 			(effects
 				(font
@@ -6110,7 +6164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 131.5222 80.3057 0)
 			(effects
 				(font
@@ -6120,6 +6174,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 131.5222 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 131.5222 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT1K00"
 			(at 131.5222 80.3057 0)
 			(effects
 				(font
@@ -6268,7 +6340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "4.7k"
 			(at 125.7514 108.2179 0)
 			(effects
 				(font
@@ -6277,7 +6349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.7071 107.202 90)
 			(effects
 				(font
@@ -6286,7 +6358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 123.6911 106.948 0)
 			(effects
 				(font
@@ -6296,6 +6368,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 123.6911 106.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 123.6911 106.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT4K70"
 			(at 123.6911 106.948 0)
 			(effects
 				(font
@@ -6511,7 +6601,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1M"
 			(at 136.8898 94.0116 0)
 			(effects
 				(font
@@ -6520,7 +6610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 135.8455 92.9957 90)
 			(effects
 				(font
@@ -6529,7 +6619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 134.8295 92.7417 0)
 			(effects
 				(font
@@ -6539,6 +6629,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 134.8295 92.7417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 134.8295 92.7417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT1M00"
 			(at 134.8295 92.7417 0)
 			(effects
 				(font

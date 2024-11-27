@@ -1,0 +1,18 @@
+.53100C :1 ;Murata Power Solutions Current Transformer, , 10A Input,
+"53100C"
+*STM T
+*NGS
+*PLB 1="SEC_1" 2="NC_1" 3="SEC_2" 4="NC_2" 5="NC_3" 6="NC_4" 7="PRI_1" 8="PRI_2"
+*MXP 8
+*DFN 53100C
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (53100C)
+~!Mouser Part Number (580-53100C)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/53100C?qs=RJ0JL0kt8YyWMnwQulxMKA%3D%3D)
+~!Arrow Part Number (53100C)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/53100c/murata-power-solutions)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/281/kmp_5300c-51810.pdf)
+~!Height (5.65mm)
+~!3D_Model (53100C)
+"53100C"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

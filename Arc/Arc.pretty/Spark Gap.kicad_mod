@@ -1,0 +1,138 @@
+(footprint "Spark Gap"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd70bd40-f725-4d4f-87e9-4e09d0347357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Spark Gap"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f457fa8c-329c-4d49-88ec-50e0500adc53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3a0c429-5326-4cf4-abf1-656c284702d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3858d8c-4462-4044-a130-c80adcaa6e8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d2feac3-f81f-4f3c-8440-6626f46d565b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy 0 -11.5) (xy 2.5 -16.5) (xy -2.5 -16.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "6db03436-58c7-4d74-9c38-ae9a324fdef6")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -10) (xy -2.5 -5) (xy 2.5 -5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "bfe3b3b4-2004-440a-8243-df038ac3454c")
+	)
+	(fp_rect
+		(start -2.5 -16.5)
+		(end 2.5 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "37550575-f931-481e-825f-0a8b84d28a25")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "677b23de-e36c-437e-953e-12a37fa553b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 -15)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "0e37ef4d-8a71-400e-ada0-5e166f6a1c36")
+	)
+	(pad "2" smd custom
+		(at 0 -6.5)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "3d070afe-5477-4e01-8ff4-17b56a0192fb")
+	)
+)

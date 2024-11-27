@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 53100C
+D Murata Power Solutions Current Transformer, , 10A Input,
+K
+F https://www.mouser.com/datasheet/2/281/kmp_5300c-51810.pdf
+$ENDCMP
+#
+#End Doc Library

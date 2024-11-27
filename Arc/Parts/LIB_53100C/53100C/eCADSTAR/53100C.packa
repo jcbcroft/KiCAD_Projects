@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "53100C"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-11-15:08:03)
+    (mountForm default
+        (footprintRef "53100C")
+        (spec "System")
+    )
+)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "53100C"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "53100C")
+        (spec "default")
+    )
+)

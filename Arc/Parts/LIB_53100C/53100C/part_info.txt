@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=53100C
+PartCategory=Transformer
+PackageCategory=Other
+PinCount=8
+Version=1.8
+Released=2019-09-11 15:08:03
+Downloaded=2024-11-26 14:48:11
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '53100C'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "53100C" (!) = "", "53100C", "Other", "580-53100C", "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/53100C?qs=RJ0JL0kt8YyWMnwQulxMKA%3D%3D", "53100C", "https://www.arrow.com/en/products/53100c/murata-power-solutions", "Murata Power Solutions Current Transformer, , 10A Input,", "https://www.mouser.com/datasheet/2/281/kmp_5300c-51810.pdf", "5.65 mm"
+END_PART
+
+END.

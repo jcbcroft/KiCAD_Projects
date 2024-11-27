@@ -1,0 +1,175 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "53100C"
+   (description "Murata Power Solutions Current Transformer, , 10A Input,")
+   (family "XFR")
+   (package "53100C")
+   (attribute "Datasheet Link" "https://www.mouser.com/datasheet/2/281/kmp_5300c-51810.pdf")
+   (attribute "Geometry.Height" "5.65mm")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "53100C")
+   (attribute "Mouser Part Number" "580-53100C")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/53100C?qs=RJ0JL0kt8YyWMnwQulxMKA%3D%3D")
+   (attribute "Arrow Part Number" "53100C")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/53100c/murata-power-solutions")
+   (gate
+    (symbol "53100C")
+    (pin "SEC_1" 1 PS)
+    (pin "NC_1" 2 PS)
+    (pin "SEC_2" 3 PS)
+    (pin "NC_2" 4 PS)
+    (pin "NC_3" 5 PS)
+    (pin "NC_4" 6 PS)
+    (pin "PRI_1" 7 PS)
+    (pin "PRI_2" 8 PS)
+   )
+  )
+  (symbol "53100C"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 400) (pt 1000 400) (pt 1000 -500) (pt 200 -500) (pt 200 400) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 500 -700) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -700) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 -700) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "53100C"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.6 3.6)
+      (pt 3.6 3.6)
+      (pt 3.6 -3.6)
+      (pt -3.6 -3.6)
+      (pt -3.6 3.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.885 5.315)
+      (pt 4.885 5.315)
+      (pt 4.885 -5.315)
+      (pt -4.885 -5.315)
+      (pt -4.885 5.315))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.8 3.6)
+      (pt 3.6 3.6)
+      (pt 3.6 1.8)
+      (pt 3.6 1.8)
+      (pt 3.6 1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 3.6 -1.8)
+      (pt 3.6 -3.6)
+      (pt 2.8 -3.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.8 3.6)
+      (pt -3.6 3.6)
+      (pt -3.6 1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.6 -1.8)
+      (pt -3.6 -3.6)
+      (pt -2.8 -3.6)
+      (pt -2.8 -3.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.4 -4.2)
+      (arc (pt -3.400 -4.200) (pt -3.400 -4.300) (pt -3.200 -4.100) (start 180.0) (sweep 180.0))
+      (pt -3.2 -4.2)
+      (arc (pt -3.200 -4.200) (pt -3.400 -4.300) (pt -3.200 -4.100) (start 180.0) (sweep .0))
+      (pt -3.4 -4.2))))
+   (leg 1 (pt -1.850 -3.555) (padstack 0))
+   (leg 2 (pt 0.000 -3.555) (padstack 0))
+   (leg 3 (pt 1.850 -3.555) (padstack 0))
+   (leg 4 (pt 1.850 3.555) (padstack 0))
+   (leg 5 (pt 0.000 3.555) (padstack 0))
+   (leg 6 (pt -1.850 3.555) (padstack 0))
+   (leg 7 (pt 2.615 0.000) (padstack 7))
+   (leg 8 (pt -2.615 0.000) (padstack 8))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.270 1.520 0 0 90.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 2.540 3.050 0 0 90.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 2.540 3.050 0 0 90.000))
+   )
+   (model "53100C.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,4 +1,32 @@
-196259791
+6931117292823
+Arc
+53100C
+53100C-3
+Transformer
+0
+8
+8
+Arc
+GCT_USB4135-GF-A_REVA
+
+
+0
+10
+10
+Arc
+SW_TL3330AF260QG
+
+
+0
+4
+4
+Arc
+Spark Gap
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Arc")(type "KiCad")(uri "${KIPRJMOD}/Arc.pretty")(options "")(descr ""))
+)
