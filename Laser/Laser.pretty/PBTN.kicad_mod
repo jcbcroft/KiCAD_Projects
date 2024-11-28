@@ -1,0 +1,121 @@
+(footprint "PBTN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.5 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4c9458d4-9deb-4528-8ea4-51a93c94ce3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PBTN"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de8d6c30-bb98-4be5-8691-fcb00ff7a6c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4acc0a11-ad61-4d1a-a385-0cbd97816c90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb3c5f75-4cc5-47a7-9cc0-841952d1a154")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "484147e5-fbe7-4bda-a662-82bbcb580f2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "527f3b8f-37f5-4a64-97b9-e9c9d6cdba79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 -1.85)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7fc3cacd-8f55-4220-b3c9-20d35f64325d")
+	)
+	(pad "1" smd rect
+		(at 3 -1.85)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "21de00d4-80e1-4b7a-97bb-bf36d4d5c357")
+	)
+	(pad "2" smd rect
+		(at -3 1.85)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d01e5df8-9712-46ed-aafd-7bd7feb15673")
+	)
+	(pad "2" smd rect
+		(at 3 1.85)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6ff6b60f-e6d4-4c3f-83f7-2c03b1b1b389")
+	)
+	(model "${KIPRJMOD}/Laser.pretty/PTS526SK15SMTR2LFS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

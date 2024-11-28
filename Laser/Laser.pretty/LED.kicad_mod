@@ -1,0 +1,134 @@
+(footprint "LED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "438faeba-f4ce-4d19-a1f2-b59441ce6902")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf3349e0-c512-46a2-ae99-7e13785d8769")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ad74b50-03c9-416a-99e1-caacb844f1a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74177fe8-00e3-426e-b0e5-3eb59d2d3149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b01e06d-24ca-4642-9c88-a8475f474c07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 3.25 -1.75)
+		(end 3.75 -1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47f7ea73-4e9b-4d99-a27a-f37b5b80ea62")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3aac1c9b-b7ac-4b53-9eab-1ad0148beebe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.0254 0.0254)
+		(drill 4.4958)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d910ab3d-9830-424f-ba82-3ee20ecda9be")
+	)
+	(pad "1" smd rect
+		(at 2.54 -0.762)
+		(size 1.27 0.8128)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c6f4555-07e3-4859-98f2-b57019011429")
+	)
+	(pad "2" smd rect
+		(at -2.54 -0.762)
+		(size 1.27 0.8128)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "32ca349f-9233-4f2d-80cb-ea04e65b9965")
+	)
+	(pad "3" smd rect
+		(at -2.54 0.762)
+		(size 1.27 0.8128)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4fa38afa-2680-47cb-81ba-5dc4e3517c60")
+	)
+	(pad "4" smd rect
+		(at 2.54 0.762)
+		(size 1.27 0.8128)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b215ac0d-b8a5-48bd-8d65-56fe65ae7850")
+	)
+	(model "${KIPRJMOD}/Laser.pretty/LED.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
