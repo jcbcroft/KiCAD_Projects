@@ -1,0 +1,121 @@
+(footprint "EVPBT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.5 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5134bc5a-714a-4214-be7a-0906aaaa2757")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EVPBT"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fdb98c39-2fa1-495e-a2f9-e1b776f18416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "334d9b83-2c2c-4898-86ad-d66de9763967")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf73e058-042d-4270-b4e9-b617885867b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3654e1bd-5f7b-414d-b064-05f07688b60d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "718f9c0c-86af-4885-be1c-56aba238fa4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.05 -2.25)
+		(size 1.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8286783a-1443-4f6f-995b-d470d078ee16")
+	)
+	(pad "1" smd rect
+		(at 4.05 -2.25)
+		(size 1.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "73f7d9be-1b6d-42da-80eb-ae7d09186f3a")
+	)
+	(pad "2" smd rect
+		(at -4.05 2.25)
+		(size 1.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5076dc12-8fec-4837-8561-e9b291e5c87a")
+	)
+	(pad "2" smd rect
+		(at 4.05 2.25)
+		(size 1.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "31c97e3b-f64b-401c-867d-86541ea3e884")
+	)
+	(model "${KIPRJMOD}/Belle.pretty/evpbt6a4a000_step.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

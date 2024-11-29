@@ -1,0 +1,141 @@
+(footprint "CR2016"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bcf244a7-216d-4b0a-972a-817cd6db3a72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CR2016"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8029d44-f2a4-4aa2-bdef-57b463a60e93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f196013f-ac20-4a27-9ac0-ea421e8fefac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a41cd5c1-1e29-4276-93c5-84e65b622421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a99d659-1dc9-47a8-887c-d364601b8fc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11.5 -10)
+		(end 11.5 -10)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "96cf4892-2f57-47f8-ac88-d6545bedaca7")
+	)
+	(fp_line
+		(start -11.5 -3)
+		(end -11.5 -10)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca18e7c5-c0d1-44cd-953d-583b91d758f7")
+	)
+	(fp_line
+		(start 11.5 -10)
+		(end 11.5 -3)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d835dd0-df94-4701-9cbf-05a9a0ae6873")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3da591b2-5fcf-424a-b444-d1e0620c6879")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -11.43 0)
+		(size 2.54 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cf2c4862-322f-4cfc-a137-916dbd1ba610")
+	)
+	(pad "1" smd rect
+		(at 11.43 0)
+		(size 2.54 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da30c9cd-9a24-40ac-b447-d9e2a77cdd4b")
+	)
+	(pad "2" smd circle
+		(at 0 0)
+		(size 17.78 17.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7780aa5f-336f-4bac-bc98-96d468b1f883")
+	)
+	(model "${KIPRJMOD}/Belle.pretty/bat.stp"
+		(offset
+			(xyz 0 -4.445 1.905)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
