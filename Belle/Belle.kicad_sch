@@ -935,7 +935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Belle:LED_LTW-006DCG-E2_LTO"
+		(property "Footprint" "Belle:LED_C503D-WAN_CRW"
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -944,7 +944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/379/LTW-006DCG-E2_RevH_6-12-19.pdf"
+		(property "Datasheet" "https://downloads.cree-led.com/files/ds/h/HB-C503D-WAN.pdf"
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -962,7 +962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-On Inc."
+		(property "Manufacturer" "Cree LED"
 			(at 96.52 85.09 90)
 			(effects
 				(font
@@ -971,7 +971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTW-006DCG-E2"
+		(property "MPN" "C503D-WAN-CCBEB151"
 			(at 96.52 85.09 90)
 			(effects
 				(font

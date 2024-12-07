@@ -1,0 +1,6 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Manufacturer
+BT1,1,Battery_Cell,CR2016,,BAT-HLD-002-SMT,,smt,Single-cell battery,TE Connectivity Linx
+D1,1,LED_BGRA,LED,,IN-P32TRRRGB,,smt,"RGB LED, blue/green/red/anode",Inolux
+R1,1,330,R_0805_2012Metric,,RMCF0805FT330R,,smt,"Resistor, US symbol",Stackpole Electronics Inc
+"R2, R3",2,100,R_0805_2012Metric,,RMCF0805FT100R,,smt,"Resistor, US symbol",Stackpole Electronics Inc
+"SW1, SW2, SW3",3,SW_Push,PBTN,,PTS526SK15SMTR2 LFS,,smt,"Push button switch, generic, two pins",C&K

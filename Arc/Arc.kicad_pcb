@@ -90,15 +90,16 @@
 	(net 8 "Net-(D6-K)")
 	(net 9 "Net-(D7-K)")
 	(net 10 "GNDREF")
-	(net 11 "Net-(T1-AA)")
+	(net 11 "Net-(J2-Pin_1)")
 	(net 12 "Net-(U1-THR)")
 	(net 13 "+5V")
 	(net 14 "unconnected-(J1-CC1-PadA5)")
 	(net 15 "unconnected-(J1-CC2-PadB5)")
 	(net 16 "Net-(Q1-D)")
-	(net 17 "Net-(Q1-G)")
+	(net 17 "unconnected-(J3-Pin_1-Pad1)")
 	(net 18 "Net-(U1-DIS)")
 	(net 19 "unconnected-(U1-CV-Pad5)")
+	(net 20 "Net-(J4-Pin_1)")
 	(footprint "Diode_SMD:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "01e560db-bcf8-4870-b6e9-0ccdf57cd97f")
@@ -669,7 +670,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.243902)
-			(net 17 "Net-(Q1-G)")
+			(net 20 "Net-(J4-Pin_1)")
 			(pintype "passive")
 			(uuid "3c61e3b6-a673-41df-a767-c177417ea45d")
 		)
@@ -1726,6 +1727,101 @@
 			)
 		)
 	)
+	(footprint "Arc:5mm pad"
+		(layer "F.Cu")
+		(uuid "3d460ee8-4ec4-4f34-9469-8dd5e3d30b63")
+		(at 159.836026 97.537312)
+		(property "Reference" "J4"
+			(at -2.5 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "74de97b0-47f3-4573-b9f0-c69026fc3dee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bb71fc3a-33c8-4afb-bb23-21ee88f973ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Arc:5mm pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a351c08-1ab0-4c98-b094-7312ed408c2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd16b78-437e-4bf7-a403-92e3f3fc5e0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84649474-2a37-49d9-991f-152c6133ae53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/790bda62-63a9-4754-855a-a1c647c46f57")
+		(sheetname "Root")
+		(sheetfile "Arc.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0d9c3d42-af86-4008-b625-14f743f6ab0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 5 5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 20 "Net-(J4-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "ec15b60c-17a8-497a-80cd-f6abe7b17b55")
+		)
+	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "4036f1bd-11f1-48a5-9fbf-6255bb73eec9")
@@ -2188,7 +2284,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.217391)
-			(net 11 "Net-(T1-AA)")
+			(net 11 "Net-(J2-Pin_1)")
 			(pintype "passive")
 			(uuid "5d1e1f59-232c-4032-822a-c9b0fed38160")
 		)
@@ -2418,7 +2514,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.243902)
-			(net 17 "Net-(Q1-G)")
+			(net 20 "Net-(J4-Pin_1)")
 			(pintype "passive")
 			(uuid "bfcd6778-9cce-4e38-9fd8-0b9973d6277f")
 		)
@@ -3132,7 +3228,7 @@
 			(at -1.85 3.555)
 			(size 1.27 1.52)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "Net-(T1-AA)")
+			(net 11 "Net-(J2-Pin_1)")
 			(pinfunction "AA")
 			(pintype "passive")
 			(uuid "ef06c9c1-3d36-4222-a7e6-d05ef274707f")
@@ -3437,6 +3533,101 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Arc:5mm pad"
+		(layer "F.Cu")
+		(uuid "71ad4360-b2ed-4803-9e22-fd5e8464e035")
+		(at 148.74293 124.497749)
+		(property "Reference" "J3"
+			(at -2.5 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4797f861-d7ac-4076-b1d2-ab5e0789d84e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3a769d1-46f5-42e8-94e3-c671aee234b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Arc:5mm pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0b6e987-b07b-4f55-9d74-f1492a7ff5a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adeade3c-0c6c-474c-9320-7f174d6b61cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db27fab5-1581-4eef-8d79-be59f842af8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/50f4de90-962d-440f-babc-02ed3ad3294a")
+		(sheetname "Root")
+		(sheetfile "Arc.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a5a8d148-4742-479a-b829-a174c876f18e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 5 5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 17 "unconnected-(J3-Pin_1-Pad1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "99a5ae1b-0e1a-45a4-b7e4-f30ed58c8226")
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
@@ -3951,7 +4142,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 17 "Net-(Q1-G)")
+			(net 20 "Net-(J4-Pin_1)")
 			(pinfunction "Q")
 			(pintype "output")
 			(uuid "0e9df292-fac8-4b07-afe6-783c1e88c3e3")
@@ -4390,7 +4581,7 @@
 			(at -2.1 -0.885 270)
 			(size 0.9 1.27)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "Net-(T1-AA)")
+			(net 11 "Net-(J2-Pin_1)")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -4430,6 +4621,101 @@
 			(rotate
 				(xyz -90 0 0)
 			)
+		)
+	)
+	(footprint "Arc:5mm pad"
+		(layer "F.Cu")
+		(uuid "914972c2-60f6-492e-8139-d08feb2a9a6d")
+		(at 122.414378 124.567958)
+		(property "Reference" "J2"
+			(at -2.5 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "364b7c38-7229-4220-a1de-7d6799922cb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "39c80d7e-de73-403d-91c9-06762df50015")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Arc:5mm pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d4627fa-56cc-496b-83ba-13dd6a0dd99a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be89da0c-616f-4e73-a277-bb13f9c618e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3024b04-ddeb-4c15-a8f3-6fdc4185c6d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/c58fec29-f32c-48f3-b5c9-0d2c914333b3")
+		(sheetname "Root")
+		(sheetfile "Arc.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3c265656-e921-4b8b-a5e2-fc24ce0fe5ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 5 5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 11 "Net-(J2-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "cee04911-2bdd-49dc-a79f-b6606e4c327c")
 		)
 	)
 	(footprint "Arc:GCT_USB4135-GF-A_REVA"
@@ -4669,7 +4955,7 @@
 			(at 1.52 -3.635)
 			(size 0.76 1.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "Net-(T1-AA)")
+			(net 11 "Net-(J2-Pin_1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -4699,7 +4985,7 @@
 			(at -1.52 -3.635)
 			(size 0.76 1.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "Net-(T1-AA)")
+			(net 11 "Net-(J2-Pin_1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -6397,7 +6683,7 @@
 			(size 0.7 1.15)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 17 "Net-(Q1-G)")
+			(net 20 "Net-(J4-Pin_1)")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "9b2dd980-2383-44da-9966-29e6664d6088")
@@ -6699,6 +6985,101 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Arc:5mm pad"
+		(layer "F.Cu")
+		(uuid "d253fd1a-ca20-4a15-b2f6-80b8b6401b02")
+		(at 159.976445 108.560199)
+		(property "Reference" "J5"
+			(at -2.5 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7c39a9b5-643e-4de3-b2a2-d90cafcaa8a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "27153f3a-e3eb-46eb-a866-e69668c6eea1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Arc:5mm pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dfcec2c-ca17-4d18-ab14-6469f8c5976e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c295d215-7a20-4d98-90d0-fe06fa1e79bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2921f319-b962-4c81-8720-7bdf79e0a937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/24c2e17f-51ba-46b4-8f11-7733ea07ca0e")
+		(sheetname "Root")
+		(sheetfile "Arc.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8dab0b15-3643-4fa0-bdc3-ab2f1b756e74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 5 5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 10 "GNDREF")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "dab71965-c9a4-44c2-8145-a5238a48a582")
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
